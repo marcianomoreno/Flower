@@ -1,10 +1,6 @@
 {
     "version": 2,
-    "builds": [
-      {
-
-      }
-    ],
+    "buildCommand": "sass style.scss:style.css",
     "routes": [
       {
         "src": "./index.html",
