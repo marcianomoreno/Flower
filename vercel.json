@@ -2,6 +2,7 @@
     "version": 2,
     "installCommand": "npm install -g sass",
     "buildCommand": "sass style.scss:style.css",
+    "outputDirectory": ".",
     "routes": [
       {
         "src": "./index.html",
