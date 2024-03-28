@@ -2,13 +2,13 @@
     "version": 2,
     "builds": [
       {
-        "src": "/vercel-build.sh",
+        "src": "./vercel-build.sh",
         "use": "@vercel/ruby"
       }
     ],
     "routes": [
       {
-        "src": "/index.html",
+        "src": "./index.html",
         "dest": "/index.html"
       }
     ],
